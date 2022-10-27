@@ -174,3 +174,6 @@ function SwiftPluginXBlock(runtime, element) {
     });
 }
 
+// $(".CodeMirror-line").css({"margin": "-1px 20px"})
+// $(".CodeMirror-gutter, .CodeMirror-linenumbers").css({"width": "26px"})
+// $(".CodeMirror-line").css({"margin": "0px 32px"})
