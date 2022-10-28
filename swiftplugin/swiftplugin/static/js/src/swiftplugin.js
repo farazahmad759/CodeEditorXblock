@@ -174,17 +174,3 @@ function SwiftPluginXBlock(runtime, element) {
     });
 }
 
-$("#yoursolution2-tab").click(function(){
-    $("#yoursolution2").addClass("show active");
-    $("#empowrsolution").removeClass("show active");
-    $("#yoursolution2-tab").addClass("active");
-    $("#empowrsolution-tab").removeClass("active");
-    
-})
-
-$("#empowrsolution-tab").click(function(){
-    $("#empowrsolution").addClass("show active");
-    $("#yoursolution2").removeClass("show active");
-    $("#yoursolution2-tab").removeClass("active");
-    $("#empowrsolution-tab").addClass("active");
-})
